@@ -1,0 +1,18 @@
+{
+    "name": "toron/nueva_carpeta",
+    "description": "pruebas_crud",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Toron\\NuevaCarpeta\\": "src/",
+            "App\\" : "./config" 
+        }
+    },
+    "authors": [
+        {
+            "name": "DanielFelipeAsencioMartinezCAMPUS",
+            "email": "asencio.danielfelipe@gmail.com"
+        }
+    ],
+    "require": {}
+}
