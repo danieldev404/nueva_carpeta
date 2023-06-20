@@ -9,7 +9,7 @@
         protected static $config = array(
             "mysql" => array(
                 'driver' => 'mysql',
-                'host' => 'localhost:4000',
+                'host' => 'localhost',
                 'username' => 'root',
                 'password' => '',
                 'database' => 'shop',
