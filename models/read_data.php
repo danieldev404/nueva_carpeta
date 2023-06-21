@@ -1,25 +1,23 @@
 <?php
-    require_once '../config/Database.php';
+require_once '../config/Database.php';
 
-    if(isset($_GET)){
-        print_r($_GET);
-        $id = $_GET['id_user'];
+if (isset($_GET['getuser'])) {
+    $name = $_GET['getuser'];
 
-        $consulta = "SELECT name_user FROM users WHERE id_user = :id";
-        $stmt = $connection->prepare($consulta);
-        $stmt->bindParam(':id_user', $id);
-        $stmt->execute();
-        $result = $stmt->fetch(PDO::FETCH_ASSOC);
+    $consulta = "SELECT * FROM users WHERE name_user = :name";
+    $conect = $connection->prepare($consulta);
+    $conect->bindParam(':name', $name);
 
-        if ($result) {
-            $nombre = $result['name_user'];
-    
-            echo "Nombre: " . $nombre . "<br>";
+    if ($conect->execute()) {
+        if ($conect->rowCount() > 0) {
+            echo "El dato existe en la base de datos.";
         } else {
-            echo "No se encontraron datos para el ID proporcionado";
+            echo 'El dato no existe en la base de datos.';
         }
-
-        echo 'Nombre de usuario:' . $nombre;
+    } else {
+        echo 'Error al ejecutar la consulta.';
     }
-
+} else {
+    echo 'No se proporcionó el parámetro "getuser" en la URL.';
+}
 ?>

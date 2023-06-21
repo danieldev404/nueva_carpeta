@@ -1,5 +1,5 @@
 <?php
-    include '/view/style.css';
+    
     require_once './config/Database.php';
     include_once __DIR__ . '/templates/header.php';
 ?>
