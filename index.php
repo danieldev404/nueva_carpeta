@@ -12,9 +12,9 @@
   </div>
   <div id="hero" class="container px-4 text-center">
       <div id="a">
-        <h1>elegancia y comodidad</h1>
-        <p>Encuentra el equilibrio perfecto entre la elegancia y la dulzura en nuestra tienda de ropa online. Descubre nuestra selección de prendas cuidadosamente diseñadas para que te sientas cómoda y segura, sin sacrificar tu estilo único y sofisticado. ¡Déjanos ayudarte a lucir radiante en cualquier ocasión!"</p>
-        <button type="button" class="btn btn-outline-light"><a href="/proyecto/paginashtml/catalogo.html">compra ahora!!</a></button>
+        <h1>porque el cuidarte es para ti</h1>
+        <p>Encuentra el equilibrio perfecto entre la elegancia y la comodidad con nuestro spa. Descubre nuestra selección de servicios cuidadosamente diseñadas para que te sientas cómoda y segura, sin sacrificar tu tiempo, solo llamanos y estaremos en un instante. ¡Déjanos ayudarte a lucir radiante en cualquier ocasión!"</p>
+        <button type="button" class="btn btn-outline-light"><a href="#">descubre</a></button>
       </div>
     <video muted autoplay loop>
       <source src="./videos/videospa.mp4" type="video/mp4">
