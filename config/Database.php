@@ -23,12 +23,6 @@ $settings = array(
 $dns = "{$settings['mysql']['driver']}:host={$settings['mysql']['host']};dbname={$settings['mysql']['database']}";
 try {
     $connection = new \PDO($dns, $settings['mysql']['user'], $settings['mysql']['pass'], $settings['mysql']['flags']);
-    
-    if ($connection) {
-        echo "Conexión exitosa";
-    } else {
-        echo "Error al conectar";
-    }
 } catch (\PDOException $e) {
     echo "Error: " . $e->getMessage();
 }

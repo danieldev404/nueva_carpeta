@@ -1,6 +1,6 @@
 
 <?php 
-    require_once '../config/Database.php';
+    require_once './../../config/Database.php';
     if (isset($_POST)) {
         $nombre = $_REQUEST['name_user']; // Utiliza $_POST en lugar de $_REQUEST
         echo $nombre;
