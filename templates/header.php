@@ -47,12 +47,68 @@
         .sidenav a {font-size: 18px;}
         }
         #btnmenu{
+            background-color: #EEEEEE;
+            z-index: 5;
             position: fixed;
             right: 0 ;
             margin: 30px 30px;
             top: 0;
         }
-
+        footer{
+            display: flex;
+            justify-content: center ;
+            position: fixed;
+            width: 100% !important;
+            bottom: 0;
+        }
+        #hero{
+        z-index: 1;
+        min-width: 80%;
+        position: relative;
+        }
+        video{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .capa{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #1c1c1d;
+            opacity: 0.5;
+            mix-blend-mode: overlay;
+        }        
+        #a{
+            padding: 20%;
+            font-size: larger;
+            color: white;
+            flex-direction: column;
+            padding-top: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            z-index: 10;
+            margin: auto;
+        }
+        a{
+            color: #1c1c1d;
+            text-decoration: none;
+            display: block;
+        }
+        a:hover{
+            color: #1c1c1d;
+        }
+        @media screen and (max-width: 450px) and (min-width: 300px){
+         #hero { width: 100%;}
+         #a {font-size: 18px;}
+        }
 
     </style>
 </head>
