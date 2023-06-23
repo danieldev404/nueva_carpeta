@@ -51,7 +51,7 @@
             z-index: 5;
             position: fixed;
             right: 0 ;
-            margin: 30px 30px;
+            margin: 0px 30px;
             top: 0;
         }
         footer{
