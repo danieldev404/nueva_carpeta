@@ -28,14 +28,5 @@
         </div>
       </div>
     </div>
-    <div class="bottom-bar">
-      <div class="container">
-        <p class="float-start">Todos los derechos reservados © 2023</p>
-        <ul class="float-end list-inline">
-          <li><a href="#">Política de privacidad</a></li>
-          <li><a href="#">Términos y condiciones</a></li>
-          <li><a href="#">Aviso legal</a></li>
-        </ul>
-      </div>
-    </div>
+   
   </footer>

@@ -7,9 +7,6 @@
   <?php 
     include_once  './templates/manu.php';
   ?>
-  <div class="main">
-
-  </div>
   <div id="hero" class="container px-4 text-center">
       <div id="a">
         <h1>porque el cuidarte es para ti</h1>
@@ -21,6 +18,9 @@
       <div class="capa">
       </div>
     </video>
+    <div class="main">
+      
+    </div>
 </main>
 <?php 
   include_once './templates/end.php';

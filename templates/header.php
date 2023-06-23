@@ -13,6 +13,7 @@
             background-color: #EEEEEE;
             color: black;
             font-family: 'Diphylleia', serif;
+            height: 120vh;
         }
         .sidenav{
             height: 100%;
@@ -54,11 +55,10 @@
             margin: 0px 30px;
             top: 0;
         }
-        footer{
-            display: flex;
-            justify-content: center ;
-            position: fixed;
-            width: 100% !important;
+        footer{ 
+            position: absolute ;
+            width: 100% ;
+            height: 5px;
             bottom: 0;
         }
         #hero{
